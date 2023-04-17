@@ -20,10 +20,10 @@
     -  Perl
 ```
 > 2. Dawn with Core
-- [ ]  Comments
-- [ ]  Variables
-- [ ]  Data Types
-- [ ]  Numeric Data Type
+- [x]  Comments
+- [x]  Variables
+- [x]  Data Types
+- [x]  Numeric Data Type
 
 ```
 

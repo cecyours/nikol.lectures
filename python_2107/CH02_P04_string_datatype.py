@@ -39,3 +39,6 @@ print(s," : ",s[-2])
 # slicing 
 print(s," : ",s[2:5])
 print(s," : ",s[2:-1])
+
+print(s," : ",s[::2])
+print(s," : ",s[::-1])

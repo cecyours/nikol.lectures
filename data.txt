@@ -1,0 +1,501 @@
+SrNO,first name,last name,age,product,price,q,total,city,date
+1,Veronica,Teller,43,handfree,150,9,1350,hydrabad,9/7/2023
+2,Stephen,Johnson,44,RGB Fan,120000,8,960000,Ahmedabad,16/8/2023
+3,Tammy,Fossey,35,phone,150000,5,750000,delhi,6/8/2023
+4,Cheryl,Chandler,14,phone,150000,8,1200000,pune,16/3/2023
+5,Carmen,Stefani,18,processor,90000,8,720000,pune,7/6/2023
+6,James,Anderson,27,processor,90000,2,180000,pune,4/1/2023
+7,Garland,Meunier,44,charger,20000,5,100000,hydrabad,27/9/2023
+8,Connie,Poole,17,processor,90000,9,810000,mumbai,2/6/2023
+9,Chris,Perry,37,charger,20000,4,80000,Ahmedabad,21/10/2023
+10,Kathleen,Flores,12,laptop,50000,8,400000,pune,13/2/2023
+11,William,Flynn,42,RGB Fan,120000,2,240000,delhi,10/5/2023
+12,Marine,Smith,35,processor,90000,9,810000,delhi,19/7/2023
+13,Lucas,Baker,32,phone,150000,4,600000,pune,8/3/2023
+14,Joesph,Taylor,14,phone,150000,6,900000,hydrabad,16/9/2023
+15,Donna,Mallen,18,charger,20000,3,60000,Ahmedabad,22/3/2023
+16,Rhonda,Durbin,35,handfree,150,10,1500,Ahmedabad,30/3/2023
+17,Charles,Davis,25,phone,150000,4,600000,hydrabad,1/9/2023
+18,Jim,Weathers,37,handfree,150,3,450,Ahmedabad,6/2/2023
+19,Jim,Cerda,26,laptop,50000,4,200000,hydrabad,27/4/2023
+20,Carl,Thomson,43,processor,90000,9,810000,mumbai,14/8/2023
+21,William,Coffey,22,processor,90000,4,360000,hydrabad,11/11/2023
+22,Lisa,Bray,28,phone,150000,1,150000,mumbai,1/1/2023
+23,Leon,Fuller,16,laptop,50000,4,200000,delhi,12/6/2023
+24,Marcelino,Taylor,25,handfree,150,3,450,delhi,8/11/2023
+25,Cindy,Merrill,37,handfree,150,9,1350,pune,31/2/2023
+26,Lakendra,Brooks,34,charger,20000,6,120000,Ahmedabad,23/8/2023
+27,Charles,Wells,16,processor,90000,10,900000,delhi,29/11/2023
+28,James,Shebby,14,phone,150000,8,1200000,delhi,9/9/2023
+29,Kathryn,Porter,14,laptop,50000,9,450000,hydrabad,10/5/2023
+30,Allen,Mccall,24,handfree,150,1,150,Ahmedabad,24/11/2023
+31,Riley,Collins,33,processor,90000,1,90000,pune,21/1/2023
+32,Cassie,Lejeune,19,charger,20000,2,40000,hydrabad,13/4/2023
+33,Ellen,Gibbs,23,phone,150000,2,300000,delhi,15/1/2023
+34,Arthur,Watkins,20,phone,150000,3,450000,delhi,11/7/2023
+35,Chad,Hughes,41,laptop,50000,4,200000,Ahmedabad,8/6/2023
+36,Rosalee,Bihm,37,charger,20000,3,60000,pune,13/1/2023
+37,Jo,Flores,21,laptop,50000,3,150000,Ahmedabad,30/9/2023
+38,Hazel,Vangilder,28,phone,150000,5,750000,hydrabad,31/3/2023
+39,John,Smith,39,phone,150000,2,300000,delhi,23/9/2023
+40,Matthew,Fowlie,22,RGB Fan,120000,2,240000,Ahmedabad,28/8/2023
+41,Cameron,Rhodes,43,RGB Fan,120000,5,600000,mumbai,8/6/2023
+42,Charles,Knapp,36,handfree,150,10,1500,delhi,5/2/2023
+43,Derrick,Olson,35,phone,150000,1,150000,mumbai,29/9/2023
+44,Mary,Altamirano,15,RGB Fan,120000,4,480000,delhi,25/7/2023
+45,Mary,Phelps,29,laptop,50000,9,450000,mumbai,15/6/2023
+46,Beverly,Bonilla,30,handfree,150,4,600,hydrabad,15/5/2023
+47,Frank,Schreiner,18,RGB Fan,120000,1,120000,mumbai,17/7/2023
+48,Lisa,Allen,28,laptop,50000,5,250000,pune,11/5/2023
+49,Matthew,Dixon,26,RGB Fan,120000,5,600000,pune,31/1/2023
+50,Victor,Robles,45,phone,150000,4,600000,mumbai,5/2/2023
+51,Freddie,Carey,30,handfree,150,5,750,Ahmedabad,18/8/2023
+52,David,Oakes,23,RGB Fan,120000,9,1080000,pune,24/10/2023
+53,Shannon,Rogowski,29,handfree,150,7,1050,delhi,20/8/2023
+54,Sonya,Effinger,39,processor,90000,8,720000,delhi,17/1/2023
+55,Dianne,Williams,34,processor,90000,5,450000,Ahmedabad,8/9/2023
+56,Barbara,Conner,20,charger,20000,1,20000,mumbai,4/11/2023
+57,Annie,White,36,RGB Fan,120000,5,600000,delhi,15/3/2023
+58,Jennifer,Dessert,23,phone,150000,3,450000,delhi,27/10/2023
+59,Antonio,Archer,25,processor,90000,3,270000,pune,23/6/2023
+60,Christine,Miller,35,phone,150000,2,300000,pune,24/8/2023
+61,Carl,Robinson,21,handfree,150,9,1350,delhi,11/8/2023
+62,Eddie,Pack,12,charger,20000,10,200000,hydrabad,29/9/2023
+63,Shaniqua,Krois,27,laptop,50000,4,200000,pune,6/8/2023
+64,Daniel,Googe,28,laptop,50000,1,50000,pune,30/9/2023
+65,Charles,Wittke,22,RGB Fan,120000,1,120000,mumbai,17/9/2023
+66,Mindy,Lewis,20,phone,150000,10,1500000,mumbai,23/9/2023
+67,Mary,Whitefield,33,charger,20000,7,140000,pune,20/8/2023
+68,Maria,Lopez,43,charger,20000,7,140000,mumbai,19/4/2023
+69,Sandi,Reid,13,RGB Fan,120000,2,240000,delhi,26/11/2023
+70,James,Barton,13,processor,90000,3,270000,delhi,20/4/2023
+71,Sarah,Mathwich,40,phone,150000,10,1500000,Ahmedabad,14/4/2023
+72,Aaron,Spencer,36,handfree,150,6,900,mumbai,1/8/2023
+73,Aida,Peavy,22,charger,20000,9,180000,mumbai,12/7/2023
+74,David,Crager,45,RGB Fan,120000,5,600000,pune,21/7/2023
+75,Mario,Blanchette,37,charger,20000,7,140000,hydrabad,16/2/2023
+76,George,Alfaro,27,phone,150000,2,300000,pune,15/4/2023
+77,Donald,Williams,17,RGB Fan,120000,7,840000,delhi,17/1/2023
+78,Lionel,Schaffner,41,laptop,50000,10,500000,pune,22/4/2023
+79,Lee,Howard,42,phone,150000,9,1350000,Ahmedabad,9/2/2023
+80,Ryan,Dawson,33,handfree,150,8,1200,pune,4/10/2023
+81,Eric,Bergman,26,processor,90000,8,720000,Ahmedabad,28/9/2023
+82,Crystal,Duprey,38,laptop,50000,6,300000,hydrabad,29/3/2023
+83,Marilyn,Hobson,25,processor,90000,2,180000,pune,1/8/2023
+84,Nathan,Cooper,28,phone,150000,7,1050000,delhi,16/7/2023
+85,Bernice,Phillips,35,handfree,150,10,1500,mumbai,11/3/2023
+86,Sarah,Malloy,28,phone,150000,8,1200000,Ahmedabad,3/2/2023
+87,James,Jung,34,processor,90000,3,270000,delhi,3/4/2023
+88,Thomas,Rankin,17,processor,90000,2,180000,Ahmedabad,18/3/2023
+89,Francis,Walker,24,phone,150000,3,450000,delhi,19/10/2023
+90,Ronald,Allred,16,processor,90000,3,270000,mumbai,8/11/2023
+91,Sherry,Colvard,23,charger,20000,9,180000,hydrabad,16/11/2023
+92,Christie,Mosier,35,handfree,150,6,900,mumbai,21/10/2023
+93,Patrick,Green,16,phone,150000,4,600000,hydrabad,23/3/2023
+94,Jacqueline,Lester,14,charger,20000,1,20000,delhi,24/2/2023
+95,Sarah,Davis,13,charger,20000,8,160000,Ahmedabad,5/1/2023
+96,Charlotte,Pedone,37,phone,150000,7,1050000,mumbai,25/10/2023
+97,Albert,Harrington,34,charger,20000,7,140000,Ahmedabad,7/1/2023
+98,Dominic,Lino,41,handfree,150,6,900,pune,21/8/2023
+99,David,Boswell,31,phone,150000,2,300000,delhi,31/10/2023
+100,Janice,Baber,29,laptop,50000,2,100000,pune,12/2/2023
+101,Karen,Novotny,25,handfree,150,1,150,delhi,30/11/2023
+102,Marilyn,Lyford,23,charger,20000,2,40000,hydrabad,25/1/2023
+103,David,Boylan,31,charger,20000,10,200000,Ahmedabad,11/8/2023
+104,Linda,Chatman,14,RGB Fan,120000,10,1200000,delhi,10/8/2023
+105,Jackie,Burke,13,handfree,150,8,1200,hydrabad,9/6/2023
+106,Shauna,Kawachi,19,handfree,150,1,150,pune,11/8/2023
+107,Darlene,Black,27,handfree,150,7,1050,Ahmedabad,5/6/2023
+108,Margie,Pickering,19,processor,90000,3,270000,hydrabad,13/7/2023
+109,Charles,Perkins,13,processor,90000,2,180000,Ahmedabad,19/7/2023
+110,Mary,Haas,34,RGB Fan,120000,7,840000,mumbai,11/6/2023
+111,Chester,Jorstad,12,phone,150000,6,900000,Ahmedabad,25/9/2023
+112,John,Caver,35,RGB Fan,120000,9,1080000,delhi,27/9/2023
+113,James,Eldreth,17,laptop,50000,10,500000,hydrabad,17/4/2023
+114,Rick,Higgins,27,RGB Fan,120000,6,720000,hydrabad,15/6/2023
+115,Angelica,Townes,17,RGB Fan,120000,8,960000,Ahmedabad,19/10/2023
+116,Dwight,Rivera,40,handfree,150,1,150,hydrabad,28/10/2023
+117,Colleen,Cummins,38,charger,20000,9,180000,delhi,1/3/2023
+118,Cheryl,Matthews,38,phone,150000,2,300000,delhi,16/7/2023
+119,Virginia,Keith,13,charger,20000,7,140000,mumbai,14/10/2023
+120,Pete,Keller,39,processor,90000,4,360000,mumbai,12/11/2023
+121,Mary,Davis,26,charger,20000,3,60000,Ahmedabad,10/5/2023
+122,Angela,Winship,18,phone,150000,9,1350000,Ahmedabad,16/5/2023
+123,Jessie,Grill,36,charger,20000,2,40000,hydrabad,21/7/2023
+124,Susanna,Mccune,41,processor,90000,6,540000,pune,28/3/2023
+125,Sara,Palumbo,33,phone,150000,7,1050000,mumbai,21/10/2023
+126,Brett,Nee,26,RGB Fan,120000,1,120000,hydrabad,15/7/2023
+127,Trina,Bischoff,32,RGB Fan,120000,6,720000,mumbai,31/9/2023
+128,Jose,Pickle,13,handfree,150,8,1200,hydrabad,10/8/2023
+129,Ethan,Worley,16,charger,20000,4,80000,pune,19/3/2023
+130,Kathleen,Hall,30,phone,150000,1,150000,delhi,31/2/2023
+131,Elijah,Dickinson,38,laptop,50000,6,300000,delhi,10/3/2023
+132,Rosa,Lombard,33,handfree,150,1,150,mumbai,4/3/2023
+133,Jason,Powe,17,RGB Fan,120000,5,600000,delhi,28/7/2023
+134,Karen,Morris,35,laptop,50000,8,400000,pune,19/5/2023
+135,David,Spanton,20,charger,20000,8,160000,Ahmedabad,9/5/2023
+136,Christie,Roseboro,29,handfree,150,7,1050,hydrabad,23/6/2023
+137,Camille,Dunston,15,processor,90000,7,630000,mumbai,28/7/2023
+138,Kenneth,Harper,17,laptop,50000,2,100000,pune,18/4/2023
+139,Alyssa,Castillo,23,handfree,150,3,450,hydrabad,23/3/2023
+140,Marie,Armstong,44,phone,150000,7,1050000,Ahmedabad,8/7/2023
+141,Carolyn,Haynes,27,phone,150000,1,150000,Ahmedabad,3/8/2023
+142,Louis,Antolin,27,processor,90000,8,720000,Ahmedabad,21/9/2023
+143,Nathan,Troxel,20,processor,90000,10,900000,hydrabad,18/1/2023
+144,Lisa,Aguilera,34,phone,150000,4,600000,mumbai,12/1/2023
+145,Lisa,Free,43,charger,20000,1,20000,Ahmedabad,8/4/2023
+146,Jennifer,Mills,26,laptop,50000,3,150000,mumbai,1/11/2023
+147,Matthew,Fritz,18,RGB Fan,120000,10,1200000,hydrabad,16/5/2023
+148,Angela,Gallant,43,handfree,150,3,450,pune,19/2/2023
+149,James,Smith,45,processor,90000,1,90000,mumbai,16/8/2023
+150,Harold,Rojas,19,RGB Fan,120000,10,1200000,hydrabad,18/8/2023
+151,Jon,Jefferies,13,laptop,50000,4,200000,delhi,4/7/2023
+152,Carl,Weller,30,RGB Fan,120000,3,360000,hydrabad,11/1/2023
+153,Adriane,Jackson,14,laptop,50000,2,100000,pune,20/7/2023
+154,Felix,Dow,16,RGB Fan,120000,4,480000,Ahmedabad,8/5/2023
+155,Charles,Basye,19,laptop,50000,10,500000,mumbai,19/3/2023
+156,Kevin,Sankey,33,processor,90000,3,270000,hydrabad,31/11/2023
+157,Betty,Lutz,15,processor,90000,8,720000,mumbai,28/1/2023
+158,Erick,Brown,37,processor,90000,4,360000,delhi,28/9/2023
+159,Peggy,Bunker,19,charger,20000,2,40000,pune,3/4/2023
+160,Corine,Kuhn,18,handfree,150,3,450,delhi,1/11/2023
+161,Lisa,Segarra,39,handfree,150,4,600,Ahmedabad,23/4/2023
+162,Phyllis,Martin,44,handfree,150,2,300,Ahmedabad,13/4/2023
+163,Richard,Smith,45,charger,20000,6,120000,delhi,28/10/2023
+164,Lori,Wiley,31,processor,90000,4,360000,mumbai,2/4/2023
+165,Douglas,Keatts,36,handfree,150,8,1200,delhi,11/5/2023
+166,Elizabeth,Campbell,43,laptop,50000,4,200000,Ahmedabad,5/7/2023
+167,Terri,Turner,27,phone,150000,2,300000,Ahmedabad,12/4/2023
+168,Michael,Young,35,processor,90000,2,180000,hydrabad,18/11/2023
+169,Carol,Pyle,35,phone,150000,9,1350000,hydrabad,4/2/2023
+170,Kenneth,Stringer,22,phone,150000,4,600000,Ahmedabad,10/11/2023
+171,Linda,Swanson,28,charger,20000,5,100000,hydrabad,28/7/2023
+172,Melvin,Thornbury,12,charger,20000,10,200000,delhi,2/7/2023
+173,Terra,Hall,41,processor,90000,5,450000,delhi,21/3/2023
+174,Kevin,Falls,24,processor,90000,1,90000,delhi,26/2/2023
+175,Robert,Lee,38,processor,90000,5,450000,pune,22/8/2023
+176,Peter,Gofton,14,handfree,150,4,600,pune,27/5/2023
+177,Paul,Elia,17,RGB Fan,120000,2,240000,hydrabad,20/9/2023
+178,Kenny,Burns,12,RGB Fan,120000,8,960000,pune,29/7/2023
+179,Samuel,Perry,29,charger,20000,5,100000,mumbai,15/9/2023
+180,Justin,Elias,19,phone,150000,4,600000,delhi,2/11/2023
+181,Margaret,Grubaugh,26,phone,150000,9,1350000,pune,8/8/2023
+182,Joseph,Young,16,charger,20000,4,80000,delhi,5/8/2023
+183,Joyce,Bartos,24,processor,90000,4,360000,hydrabad,12/5/2023
+184,Sam,Morales,19,processor,90000,7,630000,mumbai,26/8/2023
+185,Darnell,Way,30,charger,20000,1,20000,delhi,22/8/2023
+186,Laura,Griffin,27,phone,150000,8,1200000,delhi,7/3/2023
+187,Althea,Phelps,19,handfree,150,1,150,hydrabad,11/6/2023
+188,Rhonda,White,19,RGB Fan,120000,9,1080000,mumbai,21/1/2023
+189,Laura,Harper,32,phone,150000,6,900000,pune,20/4/2023
+190,Kenneth,Martin,18,handfree,150,7,1050,pune,10/11/2023
+191,Maria,Smith,25,charger,20000,5,100000,Ahmedabad,25/8/2023
+192,Lourdes,Wesley,29,handfree,150,4,600,Ahmedabad,20/9/2023
+193,Jason,Ford,36,handfree,150,10,1500,Ahmedabad,21/7/2023
+194,Cory,Smith,20,handfree,150,8,1200,pune,18/3/2023
+195,Eric,Rayborn,19,RGB Fan,120000,7,840000,Ahmedabad,8/11/2023
+196,Raleigh,Delgado,25,RGB Fan,120000,6,720000,delhi,29/3/2023
+197,Justin,Brennan,25,RGB Fan,120000,9,1080000,mumbai,16/10/2023
+198,Beth,Powers,23,handfree,150,7,1050,pune,11/8/2023
+199,Edward,Destina,12,laptop,50000,4,200000,mumbai,12/9/2023
+200,Blair,Hummingbird,22,laptop,50000,10,500000,delhi,12/10/2023
+201,Nicholas,Gibson,21,RGB Fan,120000,8,960000,pune,18/7/2023
+202,Marsha,Stinnett,26,RGB Fan,120000,6,720000,mumbai,3/7/2023
+203,Francis,Jean,33,charger,20000,9,180000,pune,18/5/2023
+204,Scott,Prucha,15,laptop,50000,9,450000,hydrabad,6/9/2023
+205,Jeffrey,Ault,21,charger,20000,9,180000,hydrabad,2/6/2023
+206,Charles,Losacco,44,processor,90000,8,720000,mumbai,12/1/2023
+207,Herbert,Tainter,35,phone,150000,9,1350000,hydrabad,15/6/2023
+208,Juanita,Mcclain,16,charger,20000,5,100000,pune,15/6/2023
+209,Nicole,Yates,27,processor,90000,7,630000,delhi,18/1/2023
+210,Ines,Bradshaw,32,processor,90000,3,270000,hydrabad,26/7/2023
+211,Aimee,Whaley,14,processor,90000,9,810000,mumbai,17/4/2023
+212,James,Greenwell,29,handfree,150,10,1500,hydrabad,6/5/2023
+213,Dorothy,Newkirk,45,laptop,50000,10,500000,Ahmedabad,8/10/2023
+214,Thomas,Freiseis,24,handfree,150,6,900,delhi,30/3/2023
+215,Steven,Price,35,laptop,50000,9,450000,delhi,5/1/2023
+216,Cynthia,Manalili,19,RGB Fan,120000,6,720000,hydrabad,23/3/2023
+217,Nancy,King,28,laptop,50000,8,400000,mumbai,5/5/2023
+218,John,Morris,29,charger,20000,2,40000,delhi,18/4/2023
+219,Samantha,Lutes,22,processor,90000,7,630000,hydrabad,5/8/2023
+220,William,Strickland,24,charger,20000,2,40000,Ahmedabad,31/6/2023
+221,Dorothy,Turner,42,phone,150000,2,300000,Ahmedabad,16/5/2023
+222,Angela,Dancy,13,handfree,150,6,900,Ahmedabad,27/6/2023
+223,Donald,Wooden,14,processor,90000,2,180000,pune,29/1/2023
+224,Cathy,Underwood,25,phone,150000,1,150000,pune,17/11/2023
+225,Carolyn,Deshields,37,phone,150000,1,150000,mumbai,28/9/2023
+226,Paul,Soroka,42,RGB Fan,120000,2,240000,pune,27/8/2023
+227,Elsie,Acosta,35,handfree,150,1,150,pune,18/6/2023
+228,Loren,Eshleman,17,processor,90000,6,540000,delhi,19/7/2023
+229,Rick,Moree,35,phone,150000,6,900000,delhi,26/5/2023
+230,Demetrice,Sanchez,32,charger,20000,6,120000,hydrabad,23/3/2023
+231,Karyl,Platt,24,phone,150000,7,1050000,pune,24/3/2023
+232,Philip,Stanley,45,phone,150000,4,600000,hydrabad,31/7/2023
+233,Donald,Vazquez,25,handfree,150,7,1050,hydrabad,5/4/2023
+234,Betty,Kelley,29,charger,20000,8,160000,Ahmedabad,5/3/2023
+235,Michael,Slowik,17,laptop,50000,6,300000,Ahmedabad,18/6/2023
+236,Charles,Collins,12,processor,90000,3,270000,mumbai,8/1/2023
+237,Michael,Bankston,32,laptop,50000,1,50000,delhi,6/10/2023
+238,Viola,Wenz,26,charger,20000,7,140000,pune,12/2/2023
+239,Al,Dickow,22,charger,20000,10,200000,mumbai,4/1/2023
+240,Abe,Hernandez,38,handfree,150,10,1500,delhi,4/9/2023
+241,Frank,Bechtel,39,handfree,150,9,1350,Ahmedabad,24/6/2023
+242,Maria,Kowalcyk,44,handfree,150,4,600,delhi,3/8/2023
+243,John,Hadley,45,phone,150000,8,1200000,hydrabad,13/4/2023
+244,Wayne,Flores,36,charger,20000,4,80000,delhi,24/11/2023
+245,Jenni,Lane,45,phone,150000,9,1350000,hydrabad,20/5/2023
+246,Amanda,Wood,42,laptop,50000,9,450000,pune,21/11/2023
+247,Ruby,Morter,33,handfree,150,6,900,mumbai,27/6/2023
+248,Willie,Daisy,19,laptop,50000,3,150000,pune,12/4/2023
+249,Ryan,Churchill,39,RGB Fan,120000,2,240000,mumbai,21/8/2023
+250,Fern,Sands,18,handfree,150,3,450,mumbai,30/9/2023
+251,Judy,Hernandez,35,handfree,150,2,300,mumbai,9/4/2023
+252,Allyson,Petersen,44,charger,20000,1,20000,pune,12/7/2023
+253,Alan,Sangster,42,laptop,50000,8,400000,hydrabad,31/4/2023
+254,Katrina,Shapiro,29,processor,90000,7,630000,pune,5/2/2023
+255,Margaret,Baird,27,charger,20000,1,20000,Ahmedabad,22/7/2023
+256,Alex,Bottoms,33,processor,90000,4,360000,hydrabad,12/4/2023
+257,Lisa,Sigler,44,RGB Fan,120000,10,1200000,mumbai,8/1/2023
+258,Rachel,Porter,18,RGB Fan,120000,1,120000,pune,16/4/2023
+259,Barbara,Guzman,39,charger,20000,4,80000,Ahmedabad,31/11/2023
+260,Viki,Gonzalez,13,RGB Fan,120000,7,840000,pune,10/4/2023
+261,Bill,Noble,20,phone,150000,8,1200000,mumbai,18/7/2023
+262,Kevin,Hebert,35,RGB Fan,120000,8,960000,hydrabad,17/4/2023
+263,Dustin,Heard,29,RGB Fan,120000,2,240000,delhi,10/7/2023
+264,Maria,Aiello,39,RGB Fan,120000,6,720000,hydrabad,17/5/2023
+265,Robert,Lee,34,handfree,150,1,150,Ahmedabad,7/8/2023
+266,Irene,Hull,27,laptop,50000,10,500000,Ahmedabad,8/11/2023
+267,Kerry,Campbell,19,laptop,50000,5,250000,delhi,17/10/2023
+268,Keenan,Biggers,28,phone,150000,9,1350000,delhi,29/7/2023
+269,Man,Sprankle,37,charger,20000,4,80000,delhi,1/9/2023
+270,Tyler,Lockhart,20,phone,150000,7,1050000,Ahmedabad,17/9/2023
+271,Sharon,Dubois,21,phone,150000,3,450000,hydrabad,26/1/2023
+272,Anthony,Shuford,36,handfree,150,4,600,delhi,28/7/2023
+273,Frederick,Zackery,39,handfree,150,10,1500,hydrabad,5/2/2023
+274,Sabrina,Perry,38,handfree,150,1,150,Ahmedabad,30/9/2023
+275,Carol,Alexander,43,handfree,150,3,450,delhi,6/10/2023
+276,Alicia,Curtis,22,processor,90000,7,630000,mumbai,24/8/2023
+277,Courtney,Lindgren,38,RGB Fan,120000,9,1080000,Ahmedabad,17/3/2023
+278,Susan,Blair,45,handfree,150,3,450,mumbai,30/11/2023
+279,Susan,Bell,29,charger,20000,1,20000,pune,20/6/2023
+280,Nellie,Thomas,40,charger,20000,1,20000,hydrabad,11/4/2023
+281,William,Ruiz,14,processor,90000,3,270000,hydrabad,19/3/2023
+282,Lorraine,Farnan,21,laptop,50000,6,300000,hydrabad,4/4/2023
+283,Ray,Basham,22,RGB Fan,120000,7,840000,pune,12/3/2023
+284,Judith,Cook,26,processor,90000,7,630000,mumbai,26/11/2023
+285,Trena,Foster,31,laptop,50000,3,150000,Ahmedabad,14/6/2023
+286,George,Irby,18,processor,90000,4,360000,pune,31/11/2023
+287,Dawn,Gulledge,27,phone,150000,8,1200000,mumbai,15/10/2023
+288,Alvin,Bearden,30,processor,90000,8,720000,hydrabad,23/1/2023
+289,Tiffanie,Breen,40,handfree,150,7,1050,mumbai,30/5/2023
+290,Jennifer,Broten,21,laptop,50000,2,100000,pune,10/9/2023
+291,Joyce,Mcmillin,37,phone,150000,6,900000,mumbai,7/2/2023
+292,Richard,Gonzalez,32,handfree,150,8,1200,Ahmedabad,17/3/2023
+293,Donna,Barrios,15,laptop,50000,1,50000,delhi,19/9/2023
+294,David,Berry,28,laptop,50000,2,100000,Ahmedabad,24/11/2023
+295,Madeleine,Hankins,17,charger,20000,2,40000,delhi,28/7/2023
+296,Harold,Gover,17,handfree,150,7,1050,delhi,31/4/2023
+297,Jay,Burdette,33,processor,90000,7,630000,hydrabad,18/2/2023
+298,Theodore,Turner,19,handfree,150,9,1350,Ahmedabad,24/7/2023
+299,Janet,Hogan,29,processor,90000,10,900000,mumbai,5/6/2023
+300,Latia,Dube,41,handfree,150,3,450,mumbai,22/3/2023
+301,Brandon,Vermeesch,22,charger,20000,6,120000,pune,3/10/2023
+302,Charles,Mcintyre,34,processor,90000,1,90000,hydrabad,15/2/2023
+303,Paul,Rathbun,14,charger,20000,4,80000,pune,20/6/2023
+304,Austin,Smith,23,phone,150000,2,300000,mumbai,11/4/2023
+305,Grace,Mann,23,phone,150000,10,1500000,Ahmedabad,9/10/2023
+306,Eva,Williams,13,phone,150000,3,450000,hydrabad,3/3/2023
+307,Jane,Flores,41,handfree,150,3,450,Ahmedabad,31/3/2023
+308,Linda,Koenig,43,handfree,150,7,1050,hydrabad,22/10/2023
+309,Thomas,Albrecht,19,laptop,50000,8,400000,hydrabad,11/8/2023
+310,Frances,Evans,19,phone,150000,7,1050000,delhi,12/3/2023
+311,Mary,Bentley,13,charger,20000,3,60000,delhi,28/5/2023
+312,Lily,Lunsford,12,phone,150000,4,600000,Ahmedabad,21/6/2023
+313,Elizabeth,Cushman,18,charger,20000,9,180000,Ahmedabad,15/5/2023
+314,James,Bergeron,26,RGB Fan,120000,5,600000,pune,10/3/2023
+315,Shawn,Mendoza,17,handfree,150,10,1500,delhi,10/7/2023
+316,Bobby,Hall,38,charger,20000,5,100000,pune,15/7/2023
+317,Karen,Vogler,38,processor,90000,7,630000,Ahmedabad,22/10/2023
+318,William,Davidson,42,phone,150000,6,900000,pune,12/4/2023
+319,Michael,Waiters,16,phone,150000,7,1050000,pune,28/11/2023
+320,Vernon,Adams,42,processor,90000,9,810000,Ahmedabad,4/4/2023
+321,Sheila,Henry,31,handfree,150,1,150,Ahmedabad,14/1/2023
+322,Charlotte,Briggeman,33,laptop,50000,2,100000,delhi,18/2/2023
+323,Susan,Trabert,20,processor,90000,10,900000,mumbai,3/3/2023
+324,Mary,Hart,45,charger,20000,7,140000,delhi,25/5/2023
+325,Janetta,Mcleod,16,charger,20000,6,120000,delhi,28/11/2023
+326,George,Larrabee,31,processor,90000,10,900000,mumbai,6/7/2023
+327,Ronald,Kida,36,processor,90000,5,450000,delhi,13/11/2023
+328,Jason,Anderson,12,phone,150000,3,450000,hydrabad,21/6/2023
+329,Dawn,Anderson,42,handfree,150,10,1500,Ahmedabad,25/2/2023
+330,Enrique,Ortiz,36,RGB Fan,120000,10,1200000,delhi,20/2/2023
+331,Tomas,Smith,26,handfree,150,7,1050,pune,9/4/2023
+332,Colleen,Calvin,18,RGB Fan,120000,6,720000,pune,31/8/2023
+333,Earl,Hendricks,16,RGB Fan,120000,10,1200000,hydrabad,11/3/2023
+334,John,Davis,44,laptop,50000,7,350000,Ahmedabad,15/4/2023
+335,Myrtle,Chavez,40,RGB Fan,120000,1,120000,hydrabad,16/7/2023
+336,Tasha,Bundage,44,RGB Fan,120000,2,240000,pune,29/7/2023
+337,Carroll,Miller,39,laptop,50000,7,350000,pune,12/1/2023
+338,Linda,Burkett,34,laptop,50000,3,150000,delhi,21/10/2023
+339,Lois,Beaudette,17,laptop,50000,10,500000,hydrabad,26/9/2023
+340,Tammy,Benitez,20,charger,20000,2,40000,Ahmedabad,26/11/2023
+341,Barry,Draudt,28,laptop,50000,3,150000,mumbai,8/4/2023
+342,Yolanda,Thompson,20,RGB Fan,120000,2,240000,pune,10/7/2023
+343,Keith,Mcdowell,35,laptop,50000,10,500000,Ahmedabad,29/8/2023
+344,Melvin,Jones,32,charger,20000,4,80000,mumbai,14/5/2023
+345,Samuel,Blackwood,23,charger,20000,5,100000,delhi,2/5/2023
+346,Mary,Ortega,17,phone,150000,3,450000,pune,6/10/2023
+347,William,Ahern,22,processor,90000,7,630000,delhi,31/11/2023
+348,Roger,Brinson,34,handfree,150,3,450,hydrabad,6/4/2023
+349,Damon,Perea,37,processor,90000,2,180000,delhi,12/6/2023
+350,Agustin,Townsend,39,RGB Fan,120000,1,120000,pune,27/11/2023
+351,Ella,Trivedi,12,handfree,150,10,1500,pune,8/1/2023
+352,Ralph,Smith,30,laptop,50000,4,200000,mumbai,31/6/2023
+353,Tyler,Williford,33,laptop,50000,9,450000,Ahmedabad,23/3/2023
+354,Javier,Pospicil,19,laptop,50000,1,50000,mumbai,28/3/2023
+355,Jose,Welch,32,phone,150000,7,1050000,hydrabad,31/3/2023
+356,Clarence,Carswell,24,laptop,50000,4,200000,mumbai,26/6/2023
+357,Yesenia,Gamez,12,RGB Fan,120000,10,1200000,pune,17/7/2023
+358,Florence,Gadson,28,RGB Fan,120000,9,1080000,Ahmedabad,1/1/2023
+359,Eve,Solomon,28,RGB Fan,120000,2,240000,hydrabad,12/6/2023
+360,George,Lawson,34,RGB Fan,120000,4,480000,Ahmedabad,3/4/2023
+361,Gary,Crum,31,processor,90000,5,450000,hydrabad,2/7/2023
+362,Felicia,Perez,32,charger,20000,9,180000,pune,7/1/2023
+363,Melinda,Foster,32,RGB Fan,120000,5,600000,hydrabad,15/7/2023
+364,Charles,Tobin,45,phone,150000,4,600000,Ahmedabad,27/3/2023
+365,Nelson,Brown,13,RGB Fan,120000,8,960000,delhi,22/11/2023
+366,Dwight,Gibson,26,charger,20000,5,100000,pune,14/11/2023
+367,Karen,Moss,30,handfree,150,9,1350,delhi,21/10/2023
+368,Debra,Albright,23,RGB Fan,120000,9,1080000,delhi,21/7/2023
+369,Cheryle,Mccollum,28,processor,90000,8,720000,pune,26/8/2023
+370,Kelly,Mojica,37,processor,90000,5,450000,delhi,6/10/2023
+371,Clifford,Morter,30,laptop,50000,8,400000,hydrabad,30/11/2023
+372,Gregg,Hemmingsen,13,processor,90000,8,720000,hydrabad,25/2/2023
+373,Cindy,Lynum,33,phone,150000,6,900000,delhi,7/3/2023
+374,Susanne,Fontes,32,laptop,50000,10,500000,mumbai,29/9/2023
+375,Joshua,Harris,30,processor,90000,10,900000,Ahmedabad,9/6/2023
+376,Sandi,Massey,17,processor,90000,6,540000,pune,31/4/2023
+377,Frank,Hedgespeth,35,handfree,150,10,1500,Ahmedabad,6/6/2023
+378,Thomas,Mueller,43,RGB Fan,120000,8,960000,mumbai,7/3/2023
+379,Philip,Alonso,43,processor,90000,9,810000,Ahmedabad,9/7/2023
+380,Dorothy,Washington,30,phone,150000,8,1200000,hydrabad,22/4/2023
+381,Mary,Harwell,25,phone,150000,10,1500000,delhi,15/8/2023
+382,Kenneth,Grandfield,39,phone,150000,1,150000,hydrabad,30/8/2023
+383,Joe,Mclain,30,phone,150000,2,300000,Ahmedabad,20/6/2023
+384,Eric,Tauras,41,RGB Fan,120000,4,480000,mumbai,3/8/2023
+385,Tasha,Wright,18,handfree,150,7,1050,mumbai,19/7/2023
+386,Maria,Whitson,29,laptop,50000,10,500000,delhi,7/10/2023
+387,Jessica,Pace,37,charger,20000,5,100000,Ahmedabad,5/5/2023
+388,Josephine,Beard,12,laptop,50000,9,450000,hydrabad,28/7/2023
+389,Shane,Lira,43,RGB Fan,120000,5,600000,pune,15/9/2023
+390,Louise,Alatorre,12,charger,20000,9,180000,Ahmedabad,29/1/2023
+391,Laura,Hines,42,charger,20000,7,140000,pune,15/6/2023
+392,Stephanie,Pena,40,laptop,50000,10,500000,delhi,26/6/2023
+393,Ted,Brown,36,phone,150000,9,1350000,mumbai,13/3/2023
+394,Keisha,Brown,15,phone,150000,10,1500000,pune,11/6/2023
+395,Rita,Johnson,15,processor,90000,10,900000,Ahmedabad,30/8/2023
+396,Nathan,Brun,26,processor,90000,6,540000,Ahmedabad,30/10/2023
+397,Edwin,Fields,21,laptop,50000,7,350000,pune,15/3/2023
+398,Rose,Lasenby,18,handfree,150,1,150,Ahmedabad,2/6/2023
+399,Grace,Dortch,14,laptop,50000,5,250000,mumbai,16/2/2023
+400,Joshua,Batie,21,handfree,150,10,1500,delhi,17/7/2023
+401,Luke,Cota,12,processor,90000,3,270000,mumbai,19/6/2023
+402,Elizabeth,Doss,12,processor,90000,3,270000,delhi,12/2/2023
+403,Randy,Lambert,21,charger,20000,6,120000,hydrabad,15/9/2023
+404,Faye,Johnson,29,processor,90000,4,360000,delhi,4/9/2023
+405,Daniel,Mcgibbon,42,RGB Fan,120000,8,960000,Ahmedabad,14/10/2023
+406,Bruce,Sorrell,43,phone,150000,7,1050000,Ahmedabad,8/3/2023
+407,Jarrett,Douglas,12,laptop,50000,6,300000,pune,7/9/2023
+408,Paula,Marcolina,17,phone,150000,4,600000,pune,23/11/2023
+409,Kelley,Bretthauer,27,handfree,150,1,150,hydrabad,26/3/2023
+410,Virginia,Freidman,20,handfree,150,9,1350,Ahmedabad,2/8/2023
+411,Alexis,Krauss,23,processor,90000,1,90000,delhi,27/11/2023
+412,Raymond,Knight,44,handfree,150,8,1200,delhi,7/3/2023
+413,Gerald,Martinez,19,charger,20000,6,120000,Ahmedabad,18/1/2023
+414,John,Sturm,14,phone,150000,4,600000,hydrabad,2/1/2023
+415,Joe,Lopez,33,handfree,150,2,300,hydrabad,24/5/2023
+416,Juan,Rodriguez,15,laptop,50000,6,300000,delhi,8/7/2023
+417,Christopher,Antoine,18,handfree,150,2,300,hydrabad,10/2/2023
+418,Maureen,Roney,36,phone,150000,2,300000,mumbai,29/6/2023
+419,Mary,Freeman,36,processor,90000,3,270000,hydrabad,5/11/2023
+420,Dale,Fuchs,23,processor,90000,1,90000,pune,15/10/2023
+421,Walter,Gutierrez,16,handfree,150,1,150,mumbai,14/4/2023
+422,Lisa,Obrien,39,handfree,150,8,1200,Ahmedabad,27/3/2023
+423,Otilia,Sullivan,31,handfree,150,7,1050,mumbai,3/10/2023
+424,Rosella,Patrick,38,laptop,50000,7,350000,pune,31/11/2023
+425,Tammy,Schreffler,44,processor,90000,6,540000,delhi,18/3/2023
+426,Joseph,Parker,22,charger,20000,5,100000,mumbai,13/1/2023
+427,Sam,Davis,14,laptop,50000,2,100000,mumbai,15/10/2023
+428,Jane,Patrick,30,laptop,50000,3,150000,delhi,11/4/2023
+429,Damian,Boyd,26,phone,150000,7,1050000,pune,11/4/2023
+430,Keith,Williams,41,RGB Fan,120000,9,1080000,delhi,24/9/2023
+431,David,West,38,processor,90000,7,630000,Ahmedabad,26/11/2023
+432,Deborah,Glaser,40,RGB Fan,120000,6,720000,pune,24/11/2023
+433,Joseph,Malizia,33,laptop,50000,8,400000,mumbai,21/9/2023
+434,Bobbie,Brown,45,laptop,50000,8,400000,pune,6/11/2023
+435,Kathy,Raphael,26,RGB Fan,120000,1,120000,mumbai,20/5/2023
+436,Marie,Johnston,35,charger,20000,6,120000,hydrabad,10/11/2023
+437,John,Clark,23,handfree,150,2,300,pune,18/4/2023
+438,Saundra,Mons,31,RGB Fan,120000,1,120000,Ahmedabad,18/4/2023
+439,Joyce,Ralph,28,phone,150000,5,750000,hydrabad,6/5/2023
+440,Eldon,Gustafson,12,phone,150000,4,600000,mumbai,7/5/2023
+441,Tommie,Gonzalez,44,handfree,150,8,1200,hydrabad,31/6/2023
+442,Jane,Magee,28,RGB Fan,120000,9,1080000,hydrabad,5/7/2023
+443,Thomas,Alfred,33,charger,20000,6,120000,mumbai,28/1/2023
+444,Christine,Hill,40,laptop,50000,1,50000,delhi,5/6/2023
+445,Georgia,Fears,37,handfree,150,2,300,pune,6/2/2023
+446,Angela,Oneal,24,handfree,150,9,1350,pune,14/6/2023
+447,Marcell,King,19,charger,20000,1,20000,delhi,30/11/2023
+448,Andrea,Peterson,40,phone,150000,3,450000,Ahmedabad,11/6/2023
+449,Stephanie,Dodd,32,phone,150000,4,600000,Ahmedabad,7/11/2023
+450,Bruce,Pettis,16,handfree,150,7,1050,Ahmedabad,27/5/2023
+451,Shelia,Cox,35,RGB Fan,120000,1,120000,Ahmedabad,24/10/2023
+452,Jesse,Kampa,28,RGB Fan,120000,1,120000,Ahmedabad,27/5/2023
+453,Winona,Absher,40,handfree,150,5,750,delhi,9/8/2023
+454,Edward,Madison,31,phone,150000,5,750000,hydrabad,12/6/2023
+455,Jamie,Medeiros,17,RGB Fan,120000,2,240000,pune,26/6/2023
+456,Christine,Longwell,24,charger,20000,8,160000,delhi,9/2/2023
+457,Gene,Lopez,36,handfree,150,5,750,mumbai,3/8/2023
+458,Melissa,Haynes,19,phone,150000,9,1350000,pune,29/6/2023
+459,Linda,Padilla,16,phone,150000,8,1200000,hydrabad,8/8/2023
+460,Joshua,Crepeau,14,handfree,150,8,1200,delhi,29/10/2023
+461,Emmanuel,Bland,20,processor,90000,7,630000,Ahmedabad,28/7/2023
+462,Maria,Gray,14,charger,20000,9,180000,hydrabad,20/7/2023
+463,William,Persaud,12,charger,20000,9,180000,pune,24/8/2023
+464,Joseph,Simmons,30,handfree,150,3,450,hydrabad,22/7/2023
+465,Ingrid,Williams,40,phone,150000,4,600000,Ahmedabad,27/9/2023
+466,Mark,Webster,23,charger,20000,4,80000,mumbai,13/1/2023
+467,Lynne,Bigelow,22,processor,90000,10,900000,pune,28/6/2023
+468,Bobbi,Jarrett,20,handfree,150,10,1500,mumbai,27/7/2023
+469,Vanessa,Allison,22,processor,90000,8,720000,mumbai,26/7/2023
+470,Charlene,Collins,33,handfree,150,7,1050,hydrabad,19/8/2023
+471,Rose,Lindo,33,phone,150000,10,1500000,pune,4/7/2023
+472,Charles,Thomas,42,laptop,50000,2,100000,mumbai,24/3/2023
+473,Joan,Lawson,20,RGB Fan,120000,8,960000,hydrabad,11/9/2023
+474,Francis,Mcgee,23,processor,90000,5,450000,pune,26/4/2023
+475,Donald,Labarge,19,processor,90000,4,360000,delhi,20/11/2023
+476,Karen,Reeves,22,phone,150000,8,1200000,mumbai,23/2/2023
+477,Juan,Latigo,32,charger,20000,4,80000,hydrabad,4/4/2023
+478,Arthur,Knight,30,charger,20000,2,40000,hydrabad,22/3/2023
+479,Elizabeth,Hennings,39,handfree,150,3,450,mumbai,12/7/2023
+480,David,Feth,39,processor,90000,6,540000,Ahmedabad,3/2/2023
+481,Erin,Richards,30,processor,90000,5,450000,mumbai,6/5/2023
+482,Timothy,Myers,16,RGB Fan,120000,1,120000,delhi,6/5/2023
+483,Robin,Sterner,17,laptop,50000,3,150000,Ahmedabad,17/1/2023
+484,Derrick,Keith,41,RGB Fan,120000,9,1080000,delhi,20/9/2023
+485,Marion,Majors,24,phone,150000,5,750000,hydrabad,6/2/2023
+486,Heather,Duarte,29,charger,20000,2,40000,hydrabad,22/8/2023
+487,Elsie,Martin,36,handfree,150,10,1500,mumbai,10/3/2023
+488,Grace,Cottrell,12,laptop,50000,2,100000,Ahmedabad,1/5/2023
+489,Nellie,Roberts,14,charger,20000,9,180000,mumbai,22/3/2023
+490,Thomas,Irwin,27,laptop,50000,2,100000,delhi,11/9/2023
+491,Mary,Kavanagh,12,phone,150000,10,1500000,delhi,24/2/2023
+492,Sadie,Williams,30,RGB Fan,120000,8,960000,delhi,26/4/2023
+493,Bobbie,Johnson,41,processor,90000,5,450000,Ahmedabad,25/8/2023
+494,William,Turpin,18,phone,150000,10,1500000,mumbai,8/4/2023
+495,Rafael,Williams,39,phone,150000,6,900000,pune,23/4/2023
+496,Clara,Jackson,25,processor,90000,10,900000,pune,11/10/2023
+497,Franklin,Harms,38,laptop,50000,2,100000,pune,10/2/2023
+498,Barbara,Mott,36,phone,150000,1,150000,delhi,25/11/2023
+499,Lucio,Letarte,20,laptop,50000,8,400000,pune,30/5/2023
+500,Ryan,Novak,29,charger,20000,10,200000,delhi,13/6/2023

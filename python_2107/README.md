@@ -32,11 +32,11 @@
     - complex
 
 ```
-- [ ]  Boolean Data Type
+- [x]  Boolean Data Type
 ``` 
     - boolean
 ```
-- [ ]  Compound Data Type
+- [x]  Compound Data Type
 ```
     - string
     - list
@@ -44,19 +44,19 @@
     - Dictionaries
     - set
 ```
-- [ ]  keywords
-- [ ]  Print & input function
-- [ ]  Type casting
+- [x]  keywords
+- [x]  Print & input function
+- [x]  Type casting
 ```
     - implicit
     - explicit
 ```
-- [ ]  pip
-- [ ]  clrprint module
+- [x]  pip
+- [x]  clrprint module
 
 > 3. Operators & Operands
-- [ ]  Operators & Operands
-- [ ]  Types of Operators
+- [x]  Operators & Operands
+- [x]  Types of Operators
 
 ```
     -  Arithmetic
@@ -66,7 +66,7 @@
     -  Assignment
     -  Membership,Identity
  ```
-- [ ]  Precedence & associativity
+- [x]  Precedence & associativity
 4. Control statements
 - [ ]  Boolean values
 - [ ]  Decision statements

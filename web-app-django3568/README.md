@@ -11,7 +11,7 @@ which is used to perform logical task & generate excutable file..
 ```
 
 ### Scripting
-which is used to perform logical task, don't generate any excutable file.
+which is used to perform logical task, don't `generate` any excutable file.
 ```
     - php
     - js

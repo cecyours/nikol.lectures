@@ -3,4 +3,4 @@
 # target
 
 
--[x] print demo.
+- [x] print demo.

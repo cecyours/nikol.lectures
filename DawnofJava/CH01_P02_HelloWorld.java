@@ -1,7 +1,7 @@
 // compile(Check -> excutable)-> RUN
 class HelloSneha{
 
-    public static void main(String x[])
+    public static void main(String args[])
     {
         int a = 10;
         int b = 5;

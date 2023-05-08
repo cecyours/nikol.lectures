@@ -34,6 +34,7 @@ public class CH02_P08_GuessTheNumber {
             {
                 System.out.print("Hello Winner.."+i+" \t num : "+num);
                 f = true;
+                break;
             }   
          
         }

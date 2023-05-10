@@ -58,7 +58,7 @@ public class CH02_P14_bitwise {
               System.out.println(a+" << "+b+" = "+(c));
         
 
-              a = 16;
+              a = 16;   
               b = 2;
             /**
              * right shift..

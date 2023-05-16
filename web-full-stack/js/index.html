@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./static/style/boot-5.css">
+    <script>
+            function sayHello()
+            {
+                var n = document.getElementById("num").value
+                var msg = ""
+                if(n!="")
+                {
+                    for(var i=1;i<=10;i++)
+                    {
+                        msg += ""+n+" x "+i +" = "+(n*i)+"<hr>"
+                    }
+                }
+                document.getElementById("msg").innerHTML = msg
+            }
+    </script>
+    <style>
+        #msg{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <section style="margin: 50px;">
+        <input class="form-control" type="number" id="num" oninput="sayHello()" ><br>
+            <!-- <button class="btn btn-primary" onclick="sayHello()">Click me</button> -->
+            <p id="msg">this</p>
+            <p id="msg">this</p>
+            <p id="msg">this</p>
+    </section>
+</body>
+</html>

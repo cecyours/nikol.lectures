@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    <script>
+        function is_prime()
+        {
+            // logic
+            var x = document.getElementById("num").value
+            var output = document.getElementById("output")
+            if(x=="")
+            {
+                output.innerHTML = "please enter a number.."
+                return;
+            }
+
+
+            var f = true;
+
+            for(var i=2;i<=x/2;i++)
+            {
+                if(x%i==0)
+                {
+                    f = false;
+                    break;
+                }
+            }
+
+            if(f)
+            {
+                output.innerHTML = x+" is prime"
+            }
+            else
+            {
+                output.innerHTML = x+" is not prime"
+            }
+ 
+        }
+    </script>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <input class="form-control" type="text" id="num">
+        <br>
+        <button class="btn btn-success" onclick="is_prime()">check</button>
+        <br>
+        <div id="output"> 
+           
+        </div>
+   </section>
+</body>
+</html>

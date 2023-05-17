@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css">
+    <style>
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+       
+    </style>
+    <script>
+        // var msg = 89
+        function armstrong_number(x)
+        {
+            var msg = document.getElementById("msg")
+
+                // armstrong the number..
+                /**
+                 * rev = 0
+                 * num = 153
+                 * rem
+                 * check digits
+                 * 
+                 * digits = x.toString().length
+                 *  
+                 *  rev(rev+pow(rem,digits)) | rem(num%10) | num/10
+                 *          ---------------- + ----------- + -----
+                 *                27         |      3      | 153
+                 *               152         |      5      | 15
+                        *         153        |      1      | 1
+                        * --  ---------------+-------------+---
+                        *                                    0
+                 */
+                var num = x
+                var rev=0,rem;
+                var digits = x.toString().length
+                while(num>0)
+                {
+                    rem = num%10;
+                    rev = rev+Math.pow(rem,digits)
+                    num = Math.floor(num/10)
+                }
+
+                msg.innerHTML = rev
+                if(x==rev) // armstrong
+                {
+                    msg.style.color="green"
+                }
+                else
+                {
+                    msg.style.color ="red"
+                }
+            
+        }
+    </script>
+</head>
+
+<body>
+    <section style="margin:100px">
+        <input type="number" class="form-control" oninput="armstrong_number(this.value)">
+        <center><h1 id="msg" style="margin: 100px;">Hello</h1></center>
+    </section>
+</body>
+
+</html>

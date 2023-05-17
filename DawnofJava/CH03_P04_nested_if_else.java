@@ -2,6 +2,7 @@ import java.io.*;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
@@ -25,11 +26,24 @@ public class CH03_P04_nested_if_else {
             System.out.print("Enter the password  :");
             String password = br.readLine();
 
-            String pattern = "[a-zA-Z0-9~!@#$%^&*()_+{}\\[\\]:;,.<>/?-]";
-
-            if(Pattern.matches(pattern, password))
+            // bug for weekend (weak's end)
+            String pattern = "^(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[~!@#$%^&*()_+{}\\[\\]:;,.<>/?-]).{8,30}$";
+            
+            Pattern p = Pattern.compile(pattern);
+            Matcher m = p.matcher(password);
+            
+            if(m.matches())
             {
                 System.out.println("great guess.");
+
+                if(password.length()>=6)
+                {
+                    System.out.println("valid conditions..");
+                }
+                else
+                {
+                    System.out.println("not enough..");
+                }
             }
             else{
                 System.out.println("try to use all pattern..");

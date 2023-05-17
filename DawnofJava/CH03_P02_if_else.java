@@ -19,7 +19,7 @@ public class CH03_P02_if_else {
 
         System.out.print("Enter the expression : ");
         String expr = br.readLine();
-
+        double my_double = Double.parseDouble(expr); //String->double
         if(expr.indexOf('.')!=-1)
         {
            String data[] = expr.split("\\.");  // string double quotes.
@@ -40,6 +40,15 @@ public class CH03_P02_if_else {
             System.out.println("Invalid expression/ decimal point not found...");
         }
 
+        // 7.31 - 7 = 0.31
+        int n = (int)my_double;
+
+        double ans = my_double-n;
+        System.out.println("new expression : "+ans);
+
+
+        // Integer i = 19;
+        // String s = i.toString();
     }
     
 }

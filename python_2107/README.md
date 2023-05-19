@@ -68,8 +68,8 @@
  ```
 - [x]  Precedence & associativity
 4. Control statements
-- [ ]  Boolean values
-- [ ]  Decision statements
+- [x]  Boolean values
+- [x]  Decision statements
 
 ```
         - if statement
@@ -78,13 +78,13 @@
         - nested if statement
 
 ```
-- [ ]  Iteration control statement
+- [x]  Iteration control statement
 ```
     - for loop
     - while
     - else clause with for & while loop
 ```
-- [ ]  flow control statements
+- [x]  flow control statements
 
 ```
     - break
@@ -95,18 +95,18 @@
 ```
 
 5. String
-- [ ]  String
-- [ ]  ways to define a string
-- [ ]  accessing & slicing string
-- [ ]  immutable string
-- [ ]  string methods
-- [ ]  string formatting using
+- [x]  String
+- [x]  ways to define a string
+- [x]  accessing & slicing string
+- [x]  immutable string
+- [x]  string methods
+- [x]  string formatting using
   ```
       - % operator
       - format()
    ```
-- [ ]  string operations
-- [ ]  string module
+- [x]  string operations
+- [x]  string module
 ```
     - constants 
     - methods 

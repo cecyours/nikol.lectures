@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        td{
+            border: 1px red solid;
+        }
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <input class="form-control" type="text" oninput="get_update(this.value)">
+        <br>
+        
+        <table id="output" border="1">
+
+        </table>
+   </section>
+</body>
+
+<script>
+    var x = ["iron man","Hulk","Thor"]
+    var table = document.getElementById("output")
+    var text = "";
+    var tr = "";
+    var td = "";
+    
+    for(var i in x)
+    {
+        tr = document.createElement("tr")
+        td = document.createElement("td")
+        text = document.createTextNode(x[i])
+        td.appendChild(text)
+        tr.appendChild(td)
+        table.appendChild(tr)
+    }
+
+
+    console.log("check...");
+</script>
+</html>

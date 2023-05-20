@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+   
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <input class="form-control" type="text" oninput="get_update(this.value)">
+        <br>
+        
+        <div id="output"> 
+           
+        </div>
+   </section>
+</body>
+
+<script>
+    var x = 0.4;
+    console.log(x);
+    function get_update(username)
+    {
+        var msg = document.getElementById("output")
+        var x = Math.random();
+        var money =parseInt(x*10)*100;
+        var s = `Hello ${username}, i am not for u ${money}`
+        var dummy = `The SD Association is ${username} an American nonprofit organization that sets standards for the SD memory card format. SanDisk, Panasonic and Toshiba formed the SD Association in January 2000. In 2010, the SDA ${money} had a`
+        msg.innerHTML = dummy
+   }
+</script>
+</html>

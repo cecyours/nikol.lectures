@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
  
-import javax.swing.JButton;
+
 
 /**
  * CH03_P02_if_else

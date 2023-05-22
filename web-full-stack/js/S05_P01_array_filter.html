@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        td{
+            border: 1px red solid;
+        }
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+    
+        <div id="output">
+
+        </div>
+   </section>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+
+   var x = [23,63,78,3,8,9,34,93]
+   var result_map = x.flatMap((i)=> i%2==0)
+   msg.innerHTML+=result_map
+
+   msg.innerHTML+="<br>"
+
+   var result_filter = x.filter((i)=>i%2==0)
+   msg.innerHTML+=result_filter
+
+msg.innerHTML+="<hr>"
+const numbers = [-5, -2, 9,-2];
+/* 
+-10
+-1
+18
+*/
+let sum = numbers.reduceRight(myFunction,0);
+
+function myFunction(total, value, index, array) {
+  return total * value+3/1;
+}
+
+msg.innerHTML+=sum 
+</script>
+</html>

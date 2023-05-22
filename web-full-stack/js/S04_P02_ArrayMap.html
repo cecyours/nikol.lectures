@@ -19,38 +19,15 @@
         <input class="form-control" type="text" oninput="get_update(this.value)">
         <br>
         
-        <table id="output" border="1">
+        <div id="output">
 
-        </table>
+        </div>
    </section>
 </body>
 
 <script>
     var x = ["iron man","Hulk","Thor","Bucky"]
     var table = document.getElementById("output")
-    var text = "";
-    var tr = "";
-    var td = "";
     
-    // for(var i in x)
-    // {
-    //     tr = document.createElement("tr")
-    //     td = document.createElement("td")
-    //     text = document.createTextNode(x[i])
-    //     td.appendChild(text)
-    //     tr.appendChild(td)
-    //     table.appendChild(tr)
-    // }
-        x.forEach(function(i){
-           
-        tr = document.createElement("tr")
-        td = document.createElement("td")
-        text = document.createTextNode(i)
-        td.appendChild(text)
-        tr.appendChild(td)
-        table.appendChild(tr)
-        })
-
-    console.log("check...");
 </script>
 </html>

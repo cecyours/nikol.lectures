@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+    
+        <div id="output">
+
+        </div>
+   </section>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+
+   var x = 30
+   var y = 35
+
+   function getRandBetween(x,y)
+   {
+
+       return Math.floor(Math.random()*(y-x))+x
+   }
+   var ans = getRandBetween(x,y)
+   msg.innerHTML+=ans+"<br>"
+</script>
+</html>

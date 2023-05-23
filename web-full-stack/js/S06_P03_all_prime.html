@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <input type="number" class="form-control" oninput="display_prime(this.value)"> 
+        <div id="output">
+
+        </div>
+   </section>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+
+   
+
+   function display_prime(number)
+   {
+       msg.innerHTML="<br>"
+        for(var x=1;x<=number;x++)
+        {
+            if(isPrime(x))
+                msg.innerHTML+=x+"<br>"
+        }
+   }
+
+   function isPrime(x)
+   {
+        for(var i=2;i<=x/2;i++)
+        {
+            if(x%i==0)
+                return false
+        }
+        return true
+   }
+
+   msg.innerHTML = isPrime(15)
+</script>
+</html>

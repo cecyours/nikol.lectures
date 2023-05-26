@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <input type="number" class="form-control" oninput="display_name(this.value)"> 
+        <!-- current sum -->
+        <div id="output" style="margin: 100px;">
+
+        </div>
+        
+   </section>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+
+   
+
+   function display_name(number)
+   {
+
+        var msg = document.getElementById("output")
+        
+        var i = 1;
+        msg.innerHTML = ""
+        while(i<=number)
+        {
+            msg.innerHTML += String.fromCharCode(i)      
+                  i++
+
+        }
+        
+
+   }
+ 
+ 
+</script>
+</html>

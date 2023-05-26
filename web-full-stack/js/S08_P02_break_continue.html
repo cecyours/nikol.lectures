@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css">
+
+    <style>
+        .form-control,
+        .btn {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section style="margin:50px">
+        <input type="search" class="form-control" style="width: 50%;display:inline;" id="searchUserName">
+        <span id="searchResult">hello</span>
+        <button class="btn btn-success" style="display: inline;float: right;" id="btnDataSearch"> Search</button>
+        
+        <hr>
+
+        <input type="text"  class="form-control" id="studentName">
+        <input type="number" class="form-control" id="marks">
+        <button class="btn btn-primary" id="btnAddData">ADd</button>
+        
+        
+        <hr>
+        <div id="output" style="margin: 100px;">
+
+        </div>
+
+    </section>
+</body>
+
+<script>
+    var msg = document.getElementById("output")
+    
+    var btnAddData = document.getElementById("btnAddData");
+    var studentName = document.getElementById("studentName");
+    var marks = document.getElementById("marks");
+
+    var btnDataSearch = document.getElementById("btnDataSearch");
+    var searchUserName = document.getElementById("searchUserName");
+    var searchResult = document.getElementById("searchResult");
+
+    
+    var list = new Map()
+
+    btnDataSearch.onclick = function(){
+        
+    //    code to seach
+        if(searchUserName.value!="")
+        {
+            var get_marks = list.get(searchUserName.value)
+            searchResult.innerHTML = get_marks
+        }
+    }
+
+    btnAddData.onclick = function(){
+        // code to add new data into list[hashmap]
+
+        if(studentName.value!="" && marks.value!="")
+        {
+            list.set(studentName.value,marks.value)
+        }
+
+        // display data // refress
+        display()
+    }
+
+    function display()
+    {
+        msg.innerHTML = ""
+        for(var x of list)
+        {
+            msg.innerHTML+=x+"<br>"
+        }
+    }
+    
+
+
+
+
+
+</script>
+
+</html>

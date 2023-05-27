@@ -335,7 +335,8 @@
 - [ ]  multiple except blocks
 - [ ]  pass statement in try-except
 - [ ]  else clause in try-except
-- [ ]  finally block - [ ]  user-defined exception
+- [ ]  finally block
+- [ ]  user-defined exception
 19. Socket programming
 - [ ]  Sockets
 - [ ]  TCP/IP model

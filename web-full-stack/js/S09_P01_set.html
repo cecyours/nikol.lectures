@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css">
+
+    <style>
+        .form-control,
+        .btn {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section style="margin:50px">
+       
+
+        <input type="text"  class="form-control" id="studentName">
+        
+        <button class="btn btn-primary" id="btnAddData">ADd</button>
+        
+        
+        <hr>
+        <div id="output" style="margin: 100px;">
+
+        </div>
+
+    </section>
+</body>
+
+<script>
+    var msg = document.getElementById("output")
+    var btnAddData = document.getElementById("btnAddData")
+    var studentName = document.getElementById("studentName")
+    var s = new Set()
+    btnAddData.onclick = function(){
+
+        if(studentName.value!="")
+        {
+            s.add(studentName.value)
+        }
+
+        // display
+        display()
+    }
+
+    function display()
+    {
+        msg.innerHTML = ""
+        for(var x of s)
+        {
+            msg.innerHTML +=x+"<br>"
+        }
+    }
+
+
+
+
+
+
+
+</script>
+
+</html>

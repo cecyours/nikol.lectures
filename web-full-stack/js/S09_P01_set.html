@@ -26,6 +26,15 @@
         
         
         <hr>
+        
+        <select id="nameList" class="form-control">
+            
+        </select>
+        
+        <button class="btn btn-primary" id="btnDeleteData">DELETE</button>
+        
+        
+        <hr>
         <div id="output" style="margin: 100px;">
 
         </div>
@@ -37,6 +46,9 @@
     var msg = document.getElementById("output")
     var btnAddData = document.getElementById("btnAddData")
     var studentName = document.getElementById("studentName")
+    var nameList = document.getElementById("nameList")
+    var btnDeleteData = document.getElementById("btnDeleteData")
+
     var s = new Set()
     btnAddData.onclick = function(){
 
@@ -49,13 +61,37 @@
         display()
     }
 
+    btnDeleteData.onclick = function(){
+        var name = nameList.value
+        delete_name(name)
+    }
+
+    function delete_name(name)
+    {
+        if(s.has(name))
+        {
+            s.delete(name)
+            display()
+        }
+    }
     function display()
     {
+        nameList.innerHTML = "";
         msg.innerHTML = ""
         for(var x of s)
         {
+            insert(x)
             msg.innerHTML +=x+"<br>"
         }
+    }
+ 
+    function insert(name)
+    {
+        var option = document.createElement("option")
+        option.text = name
+        option.value = name
+        nameList.add(option)
+
     }
 
 

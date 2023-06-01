@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        .form-control{
+            margin: 30px;
+        }
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <input type="number" id="num1"class="form-control" oninput="bitverse()"> 
+        <input type="number" id="num2"class="form-control" oninput="bitverse()"> 
+
+        <div id="output">
+
+        </div>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+  var num1 = document.getElementById("num1")
+  var num2 = document.getElementById("num2")
+
+  function bitverse()
+  {
+    if(num1.value=="" || num2.value=="")
+        return
+    
+    var n1 = parseInt(num1.value)
+    var n2 = parseInt(num2.value)
+    var n3;
+    /*  
+        bitwise AND
+        num1=11, num2 = 7
+
+        11 => 1011
+         7 => 0111
+         & :------
+              0011 => 3
+    */
+     n3 = n1&n2
+
+    msg.innerHTML = n1+" & "+n2+" = "+n3+"<br>"
+
+/*  
+        bitwise OR
+        num1=11, num2 = 7
+
+        11 => 1011
+         7 => 0111
+         | :------
+              1111 => 15
+    */
+    n3 = n1|n2
+
+    msg.innerHTML += n1+" | "+n2+" = "+n3+"<br>"
+
+    /*  
+        bitwise X-OR
+        num1=11, num2 = 7
+
+        11 => 1011
+         7 => 0111
+         ^ :------
+              1100 => 12
+    */
+    n3 = n1^n2
+    msg.innerHTML += n1+" ^ "+n2+" = "+n3+"<br>"
+
+    /*  
+        bitwise Negation ~
+        num1=11
+
+        n3 = -(num1+1)
+           = -(12)
+           = 12
+
+        */
+    n3 = ~n1
+    msg.innerHTML += " ~ "+n1+" = "+n3+"<br>"
+
+    /*  
+        bitwise left shift <<
+        num1=11
+        num2=2
+
+        1011xx => 44
+
+        
+        */
+    n3 = n1<<n2
+    msg.innerHTML += n1+" << "+n2+" = "+n3+"<br>"
+
+    
+  }
+   
+   
+ 
+
+</script>
+</html>

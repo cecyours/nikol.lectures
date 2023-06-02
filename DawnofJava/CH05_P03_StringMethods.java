@@ -52,11 +52,39 @@ public class CH05_P03_StringMethods {
             System.out.println(i);
         }
 
-        char c[] = {''};
-         s1.getChars();
-        for(char i:c)
+        s1 = "Sneha";
+        char c[] = {'1','2','3','4','5','6','7','8','9','0'};
+         s1.getChars(0,4,c,5);
+        
+         for(char i:c)
         {
-            System.out.println(i);
+            System.out.print(i);
         }
+        System.out.println("\ngetChars() : "+s1);
+    
+        s2= new String("A");
+        System.out.println("hashCode() : "+s1.hashCode());
+        System.out.println("hashCode() : "+s2.hashCode());
+
+        s1 = "Hii, sneha, how are you sneha??";
+        System.out.println("indexOf() : "+s1.indexOf("sneha"));
+        System.out.println("indexLastOf() : "+s1.lastIndexOf("sneha"));
+ 
+        s1.intern();
+        System.out.println("intern() : "+s1.intern());
+        
+        s1 = new String("Sneha");
+        s2 = new String("Sneha");
+
+        System.out.println("compare : "+(s1.equals(s2)));
+        System.out.println("compare : "+(s1==s2));
+        System.out.println("compare : "+(s1.intern()==s2.intern()));
+
+        s1 = "Hii.";
+        System.out.println("isEmpy : "+s1.isEmpty());
+        
+        Integer i=10;
+        System.out.println("toString() "+i.toString());
+        System.out.println("valueOf() "+i.valueOf("3"));
     }
 }

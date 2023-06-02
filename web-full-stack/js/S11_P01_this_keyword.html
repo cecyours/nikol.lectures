@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        .form-control{
+            margin: 30px;
+        }
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+       
+        <div id="output">
+
+        </div>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+    
+   const Book = {
+    name:"once at me",
+    price:199,
+    author:"Vishal Bhai",
+    get_price:function (){
+
+        return this.price;
+     },
+
+     get_name:function(){
+        return this.name
+     },
+
+     get_display:function(){
+        return "Book "+this.name+", price "+this.price
+     },
+
+     set_name : function(bookname){
+        this.name = bookname
+     }
+   }
+
+   var x = Book.get_price()
+   msg.innerHTML = x+"<hr>"
+   msg.innerHTML+=Book.get_display()+"<hr>"
+
+   Book.set_name("Home..")
+   msg.innerHTML+=Book.get_display()
+
+
+</script>
+</html>

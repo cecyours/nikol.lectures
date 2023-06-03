@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        .form-control{
+            margin: 30px;
+        }
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+       
+        <div id="output">
+
+        </div>
+</body>
+
+<script>
+   var msg = document.getElementById("output")
+    
+   class Product{
+
+        constructor(pId,pName,pPrice)
+        {
+            this.pId = pId
+            this.pName = pName
+            this.pPrice = pPrice
+        }
+
+    }
+    
+    var p1 = new Product(101,"kites",199)
+    var p2 = new Product(102,"smile",999)
+    var p3 = new Product(103,"home",199)
+    var p4 = new Product(104,"happiness",299)
+
+    var list = [p1,p2,p3,p4]
+
+    list.forEach(function(x) {
+        msg.innerHTML += x.pId + "<h1> "+ x.pName+ " </h1>" + x.pPrice + "<br>"
+    })
+</script>
+</html>

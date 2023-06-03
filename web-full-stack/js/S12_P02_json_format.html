@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css">
+
+    <style>
+        .form-control {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <section style="margin:50px">
+
+        <div id="output">
+
+        </div>
+
+</body>
+
+<script>
+
+
+    var msg = document.getElementById("output")
+
+    let json = '{"student":{"name":"vishal","age":21},"developer":{"name":"suraj sir","age":24}}'
+
+    var x = JSON.parse(json)
+
+    msg.innerHTML = x.student.name+", "+x.developer.age+"<hr>";
+
+    for(var key in x)
+    {
+        msg.innerHTML+=x[key]["age"]+"<br>"
+    }
+</script>
+
+
+
+
+</html>

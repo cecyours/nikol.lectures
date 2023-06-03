@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css">
+
+    <style>
+        .form-control {
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <section style="margin:50px">
+
+        <div id="output">
+
+        </div>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+
+
+    var msg = document.getElementById("output")
+
+
+    function loadJSON(path, success, error) {
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    success(JSON.parse(xhr.responseText));
+                }
+                else {
+                    error(xhr);
+                }
+            }
+        };
+        xhr.open('GET', path, true);
+        xhr.send();
+    }
+
+    loadJSON("https://jsonplaceholder.typicode.com/posts", myData, 'jsonp');
+
+    function myData(json) {
+        // alert(json)
+        
+        msg.innerHTML = "<table border='1'>"
+        for(var i=0;i<json.length;i++)
+        {
+            msg.innerHTML=msg.innerHTML+"<tr><td>"+json[i].id+"</td></tr>"
+        }
+        msg.innerHTML += "</table>"
+
+    }
+</script>
+
+
+
+
+</html>

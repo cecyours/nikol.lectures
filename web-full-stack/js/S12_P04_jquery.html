@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/style/boot-5.css"> 
+    
+    <style>
+        .form-control{
+            margin: 30px;
+        }
+        div{
+            margin: 100px;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head> 
+<body>
+   <section style="margin:50px">
+        
+        <button class="btn btn-primary">red</button>
+        <button class="btn btn-primary">blue</button>
+        <button class="btn btn-primary">yellow</button>
+        <button class="btn btn-primary">green</button>
+
+        <div id="output">
+
+        </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+
+        // alert("hello World...")
+
+        $(".btn").click(function(){
+            $(this).css("background",$(this).text())
+            $("#output").css("background",$(this).text())
+            $("#output").text($(this).text())
+        });
+    })
+
+</script>
+
+
+
+
+</html>

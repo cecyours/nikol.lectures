@@ -21,8 +21,11 @@ public class CH06_P03_BookClass {
 }
 
 // Book[4] , Author[5]
+
+// Book = bookId + getBookId()
 class Book{
 
+    // data members
     private int bookId;
     private String bookName;
     private int authorId;
@@ -38,7 +41,8 @@ class Book{
         this.bookName = bookName;
         this.authorId = authorId;
     }
-
+    
+    // method
     public void setBookId(int bookId)
     {
         this.bookId = bookId;

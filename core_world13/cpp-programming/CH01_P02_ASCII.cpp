@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int start,end,i;
-// happy me :)
+// happy me     :)
     cout<<"Enter start end number ";
     cin>>start>>end;
 

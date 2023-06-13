@@ -1,0 +1,48 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css">
+
+<!-- JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+ </head>
+ <body>
+  <div class="mb-3">
+    <label for="signUserPhoneNumber" class="form-label">Phone Number</label>
+    <span id="signUserPhoneNumberError" class='error-message'></span>
+    <input type="tel" class="form-control" id="signUserPhoneNumber" name="signUserPhoneNumber">
+</div>
+
+ </body>
+ </html>
+ <script>
+  $(document).ready(function () {
+      var input = document.querySelector("#signUserPhoneNumber");
+      var errorElement = document.querySelector("#signUserPhoneNumberError");
+
+      // Initialize intl-tel-input
+      var iti = window.intlTelInput(input, {
+          separateDialCode: true,
+          utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+      });
+
+      // Validate the phone number on form submission
+      $("#loginBtn").click(function () {
+          var phoneNumber = iti.getNumber();
+          if (iti.isValidNumber()) {
+              // Valid phone number
+              // You can access the phone number with the variable 'phoneNumber'
+              alert("Phone number: " + phoneNumber);
+          } else {
+              // Invalid phone number
+              errorElement.textContent = "Please enter a valid phone number";
+          }
+      });
+  });
+</script>

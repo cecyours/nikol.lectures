@@ -1,6 +1,14 @@
 public class CH07_P07_FactoryMethod {
     public static void main(String[] args) {
         
+        Coin level1 = new Coin(100);
+        Coin level2 = new Coin(134);
+
+        Coin level3 = level1.add(level2);
+
+        System.out.println("level 1 : "+level1); //this.value
+        System.out.println("level 2 : "+level2.toString()); // this.value
+        System.out.println("level 3 : "+level3);
     }
 }
 class Coin{
@@ -18,11 +26,18 @@ class Coin{
         return this.value;
     }
 
-    Coin  add(Coin c1, Coin c2) // factory metho
+    Coin  add(Coin c) // factory method
     {
-        int sum = c1.value+c2.value;
+        int sum = this.value+c.value;
+        
+        Coin c3 = new Coin(sum);
 
-        return new Coin(sum);
+        return c3;
+    }
+
+    @Override
+    public String toString(){
+        return value+" coins";
     }
 
 }

@@ -1,0 +1,13 @@
+.div{
+    background-color: aqua;
+    opacity: 0.1;
+}
+.ddiv{
+    background-color: aqua;
+    opacity: 0.5;
+}
+body{
+   background: red url(bck.jpg) no-repeat right top;
+   margin-right: 200px;
+
+}

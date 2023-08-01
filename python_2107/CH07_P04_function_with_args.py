@@ -1,4 +1,3 @@
-
 def sum(a,b=0):
     print(a," + ",b," = ",a+b)
 
@@ -16,4 +15,4 @@ def sum(*a):
         print(i)
     print('final sum :',s)
 
-sum(3,1,5)
+sum(3,1,5)    

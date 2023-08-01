@@ -1,0 +1,4 @@
+Gk : 100.0
+sneha : 90.0
+sneha : 89.0
+kites : 199.0

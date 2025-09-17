@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from './Component/Layout'
 import Button from './Component/Button'
+import ClassComp from './Component/ClassComp'
 
 function App() {
   const name = "Kuldeep";
@@ -18,6 +19,10 @@ function App() {
         <button>Delete</button>
         <button>Update</button>
       </Button>
+      <div>
+        <ClassComp name="Kuldeep" />
+
+      </div>
     </>
   );
 }

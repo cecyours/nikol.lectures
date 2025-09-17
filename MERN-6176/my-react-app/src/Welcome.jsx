@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 
-function Welcome({ name }) {
-  return (
-    <div>
-      <h1>Hello, {name}!</h1>
-    </div>
-  )
-}
+// function Welcome({ name }) {
+//   return (
+//     <div>
+//       <h1>Hello, {name}!</h1>
+//     </div>
+//   )
+// }
 
-export default Welcome;
+// export default Welcome;

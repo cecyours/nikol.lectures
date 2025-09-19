@@ -2,6 +2,7 @@ import React from "react";
 import Layout from './Component/Layout'
 import Button from './Component/Button'
 import ClassComp from './Component/ClassComp'
+import PureComp from './Component/PureComp'
 
 function App() {
   const name = "Kuldeep";
@@ -22,6 +23,9 @@ function App() {
       <div>
         <ClassComp name="Kuldeep" />
 
+      </div>
+      <div>
+        <PureComp />
       </div>
     </>
   );

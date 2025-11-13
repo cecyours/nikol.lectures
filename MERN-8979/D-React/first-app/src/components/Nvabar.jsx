@@ -3,14 +3,16 @@ const Navbar = () => {
   const name = "devang";
 
   return (
-    <>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>service</li>
-        <li> {isAdmin ? name : "Plase log in first"} </li>
+    <nav className="navbar">
+      <ul className="nav-list">
+        <li className="nav-item">Home</li>
+        <li className="nav-item">About</li>
+        <li className="nav-item">Service</li>
+        <li className="nav-item user-name">
+          {isAdmin ? name : "Please log in first"}
+        </li>
       </ul>
-    </>
+    </nav>
   );
 };
 

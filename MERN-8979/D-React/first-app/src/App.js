@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Nvabar';
 import Footer from './components/Footer';
+import MComp from './components/ClassBased';
+import FunctionBased from './components/FunctionBased'
+import UserCard from './components/UserCard';
 
 function App() {
   return (
@@ -13,27 +16,23 @@ function App() {
       <Navbar />
 
 
+      {/* <MComp /> */}
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello world ,this is my first react app
-        </p>
 
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FunctionBased /> */}
+
+
+
+
+      <UserCard name={"Devang"} age={18} />
+
+
+      <UserCard name={"CEC"} age={3} />
+
 
 
 
       <Footer />
-
 
 
     </div>

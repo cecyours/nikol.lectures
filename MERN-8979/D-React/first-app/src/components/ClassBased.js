@@ -5,6 +5,4 @@ class MComp extends Component {
         return <h1>This is class Based component </h1>
     }
 }
-
-
 export default MComp

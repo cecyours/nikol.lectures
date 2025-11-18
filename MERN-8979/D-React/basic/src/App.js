@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import Student from './components/Student';
+import StudentList from './components/StudentList';
 
 function App() {
 
@@ -21,7 +22,13 @@ function App() {
   }
 
 
+  const Students = [
+    { roll: 1, name: "vishal", course: "MERN Stack" },
+    { roll: 2, name: "devang", course: "Full Stack" },
+    { roll: 3, name: "pavan", course: "MEAN Stack" },
+    { roll: 4, name: "sahil", course: "WAEM Stack" }
 
+  ]
 
 
 
@@ -32,15 +39,15 @@ function App() {
       </h4>
       <button onClick={handleChange}  >Click me for change values</button>
 
+      <Student stuRoll={55} stuName={"Devang"} />
 
-
-      <Student  stuRoll={55}  stuName={"Devang"} />
+      <Student stuRoll={25} stuName={"vishal"} />
 
 
       <Student />
 
 
-
+      <StudentList students={Students} />
 
     </div>
   );

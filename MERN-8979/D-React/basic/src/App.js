@@ -3,6 +3,7 @@ import './App.css';
 import { useState } from 'react';
 import Student from './components/Student';
 import StudentList from './components/StudentList';
+import Button from './components/Button';
 
 function App() {
 
@@ -37,17 +38,22 @@ function App() {
       <h4>
         hello , i am {name} and now i am studying {course} in {year}
       </h4>
+
       <button onClick={handleChange}  >Click me for change values</button>
 
       <Student stuRoll={55} stuName={"Devang"} />
 
-      <Student stuRoll={25} stuName={"vishal"} />
+      {/* <Student stuRoll={25} stuName={"vishal"} /> */}
 
 
-      <Student />
+      {/* <Student /> */}
 
 
-      <StudentList students={Students} />
+      {/* <StudentList students={Students} /> */}
+
+
+
+      <Button />
 
     </div>
   );

@@ -4,7 +4,7 @@ const StudentList = ({ students }) => {
   return (
     <div>
       {students.map((student) => (
-        <div >
+        <div>
           hello , i am roll number {student.roll}! my name is {student.name} and
           my course is {student.course}
           <br />

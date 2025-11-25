@@ -4,6 +4,8 @@ import { useState } from 'react';
 import Student from './components/Student';
 import StudentList from './components/StudentList';
 import Button from './components/Button';
+import TypingPlayground from './components/TypingPlayground';
+import Keyboard from './components/Keyboard';
 
 function App() {
 
@@ -50,6 +52,13 @@ function App() {
 
 
       {/* <StudentList students={Students} /> */}
+
+
+      <TypingPlayground />
+
+
+
+      <Keyboard />
 
 
 

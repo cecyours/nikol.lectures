@@ -1,17 +1,16 @@
 import React, { useState } from "react";
 
 const Keyboard = () => {
-  const [letter, setLetter] = useState("");
+  const [word, setWord] = useState("");
 
-  const handleChange = (e) => {
-    console.log(e);
-    setLetter(e.key);
+  const devang = (e) => {
+    setWord(e.key);
   };
   return (
     <div>
-      <input onKeyDown={(e) => handleChange(e)} />
+      <input onKeyDown={(e) => devang(e)} />
 
-      <h1>{letter}</h1>
+      <h2>{word}</h2>
     </div>
   );
 };

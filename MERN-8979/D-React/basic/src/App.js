@@ -6,6 +6,7 @@ import StudentList from './components/StudentList';
 import Button from './components/Button';
 import TypingPlayground from './components/TypingPlayground';
 import Keyboard from './components/Keyboard';
+import InputWithArgument from './components/InputWithArgument';
 
 function App() {
 
@@ -43,7 +44,7 @@ function App() {
 
       <button onClick={handleChange}  >Click me for change values</button>
 
-      <Student stuRoll={55} stuName={"Devang"} />
+      {/* <Student stuRoll={55} stuName={"Devang"} /> */}
 
       {/* <Student stuRoll={25} stuName={"vishal"} /> */}
 
@@ -54,15 +55,19 @@ function App() {
       {/* <StudentList students={Students} /> */}
 
 
-      <TypingPlayground />
+      {/* <TypingPlayground /> */}
 
 
 
-      <Keyboard />
+      {/* <Keyboard /> */}
 
 
 
-      <Button />
+      {/* <Button /> */}
+
+
+
+      <InputWithArgument />
 
     </div>
   );

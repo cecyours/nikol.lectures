@@ -67,7 +67,7 @@ const todos = [
 ]
 
 
-router.get('/', function (req, res) {
+router.get('/', function (req, res) { 
     res.json(todos)
 })
 

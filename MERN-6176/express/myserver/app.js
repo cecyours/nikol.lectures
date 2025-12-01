@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var studentRouter = require('./routes/students')
 var todoRouter = require('./routes/todos')
+var mongoose = require('mongoose')
 
 
 var app = express();
@@ -34,6 +35,10 @@ app.use(function (req, res, next) {
   next(createError(404));
 });
 
+const STR = "mongodb+srv://rabariv832_db_user:mUVsEaxkYpFyJmcO@cluster0.h1cs1cz.mongodb.net/kuldb"
+
+mongoose.connect(STR).then(() => console.log("Database coonect ho gaya✅")).catch((err) => console.log("Kuch to gadbad hain db connect me❌", err))
+
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
@@ -46,3 +51,7 @@ app.use(function (err, req, res, next) {
 });
 
 module.exports = app;
+
+
+
+// mongodb+srv://rabariv832_db_user:mUVsEaxkYpFyJmcO@cluster0.h1cs1cz.mongodb.net/?appName=Cluster0

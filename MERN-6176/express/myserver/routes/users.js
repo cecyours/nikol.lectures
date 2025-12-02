@@ -3,19 +3,27 @@ const { default: User } = require('../models/user');
 var router = express.Router()
 
 
-// router.get('/', function (req, res) {
-//   res.json(todos)
-// })
+router.get('/', async function (req, res) {
+  try {
+    const userData = await User.find()
+    res.status(200).json({ message: "user created successfully", user: userData })
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "failed to fetch user" })
+
+  }
+})
 
 
 
 router.post('/', async function (req, res) {
   try {
-
-    const userdata = await User.create()
-
+    const data = req.body
+    const userdata = await User.create(data)
+    res.status(201).json({ message: "user created successfully", user: userdata })
   } catch (err) {
     console.log(err);
+    res.status(500).json({ message: "failed to create user" })
   }
 })
 

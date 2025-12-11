@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Theme from './components/Theme';
-import { useContext } from 'react';
+import React, { Suspense, useContext } from 'react';
 import { ThemeContext } from './context/ThemeContext';
+
+const LazySample = React.lazy(() => import('./components/Sample'))
+
 
 function App() {
 
@@ -10,9 +13,13 @@ function App() {
 
   return (
     <div className='box' style={{ backgroundColor: theme === "light" ? "black" : "white", color: theme === "light" ? "white" : "black" }} >
-      <Theme />
+      <Suspense fallback={<h1>Loading....</h1>}>
+        <Theme />
+        <LazySample />
+      </Suspense>
     </div>
   );
+
 }
 
 export default App;
